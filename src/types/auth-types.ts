@@ -1,0 +1,22 @@
+export type InputPropsTypes = {
+  text?: string;
+  type: string;
+  placeholder: string;
+  onChange?: (event: React.FormEvent<HTMLInputElement>) => void;
+  value?: string;
+  className?: string;
+  disabled?: boolean;
+  required?: boolean;
+  maxLength?: number;
+  minLength?: number;
+  pattern?: string;
+  error?: string;
+  label?: string;
+  helperText?: string;
+  autoComplete?: string;
+  name?: string;
+  autoFocus?: boolean;
+  inputRef?: React.RefObject<HTMLInputElement>;
+  inputProps?: any;
+  id?: string;
+};
