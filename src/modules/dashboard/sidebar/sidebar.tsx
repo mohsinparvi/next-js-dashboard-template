@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className="bg-[#1B181E] text-white h-screen w-1/6 xl:w-[14%] space-y-4  hidden lg:block">
       <div className="flex items-center justify-between border-b-2 py-4 border-gray-400 px-4 ">
-        <p className="text-base font-medium capitalize">Yestofy</p>
+        <p className="text-base font-medium capitalize">Logo</p>
         <svg
           className="w-6 h-6 bg-gray-800 p-1 rounded text-white"
           aria-hidden="true"
