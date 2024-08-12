@@ -33,7 +33,7 @@ const ProfileSetting = () => {
           onPointerEnterCapture={""}
           onPointerLeaveCapture={""}
         >
-          {/* <MenuItem
+          <MenuItem
             className="flex items-center gap-2"
             placeholder={""}
             onPointerEnterCapture={""}
@@ -155,8 +155,8 @@ const ProfileSetting = () => {
             >
               Help
             </Typography>
-          </MenuItem> */}
-          {/* <hr className="my-2 border-blue-gray-50" /> */}
+          </MenuItem>
+          <hr className="my-2 border-blue-gray-50" />
           <MenuItem
             className="flex items-center gap-2 "
             placeholder={""}
