@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import MobileSidebar from "../sidebar/mobile-sidebar";
+import ProfileSetting from "@/components/dashboard/header/user-profile";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
           <MobileSidebar />
         </div>
 
-        <div className="hidden sm:block ">
+        <div className="hidden sm:flex justify-between items-center w-full">
           <form action="#" method="POST">
             <div className="relative border rounded">
               <button className="absolute left-0 top-1/2 -translate-y-1/2">
@@ -26,6 +27,7 @@ const Header = () => {
               />
             </div>
           </form>
+          <ProfileSetting />
         </div>
       </div>
     </header>
