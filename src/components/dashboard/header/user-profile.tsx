@@ -12,6 +12,7 @@ import { deleteCookie } from "cookies-next";
 const ProfileSetting = () => {
   const handleLogout = () => {
     deleteCookie("accessToken");
+    //
     window.location.href = "/";
   };
   return (
